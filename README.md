@@ -8,6 +8,12 @@ Start by installing dependencies:
 yarn install
 ```
 
+Make sure database is happy
+
+```
+yarn rw prisma migrate dev
+```
+
 Then start the development server:
 
 ```
