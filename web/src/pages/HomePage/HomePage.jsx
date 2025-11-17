@@ -1,7 +1,9 @@
 import { Link, routes } from '@cedarjs/router'
 import { Metadata } from '@cedarjs/web'
+import { useAuth } from 'src/auth'
 
 const HomePage = () => {
+  const { isAuthenticated, currentUser, logIn, logOut } = useAuth()
   return (
     <>
       <Metadata title="Home" description="Home page" />
@@ -12,6 +14,12 @@ const HomePage = () => {
       </p>
       link to About with:
       <Link to={routes.about()}>About</Link>
+
+      {isAuthenticated && <p>Logged In</p>}
+      {!isAuthenticated && <p>Logged Out</p>}
+
+      <button onClick={logIn}>Log In</button>
+      <button onClick={logOut}>Log Out</button>
     </>
   )
 }

@@ -1895,6 +1895,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cedarjs/auth-dbauth-api@npm:0.15.0":
+  version: 0.15.0
+  resolution: "@cedarjs/auth-dbauth-api@npm:0.15.0"
+  dependencies:
+    "@cedarjs/project-config": "npm:0.15.0"
+    base64url: "npm:3.0.1"
+    md5: "npm:2.3.0"
+    uuid: "npm:10.0.0"
+  checksum: 10c0/93509bd0a7ad842687e438a6ee6d88f9c9d9060784481ee4fdc913b220193df9215be69c6111af8dbe207207833e23483549781c08961da4c23b8d85fa94b7f9
+  languageName: node
+  linkType: hard
+
+"@cedarjs/auth-dbauth-setup@npm:0.15.0":
+  version: 0.15.0
+  resolution: "@cedarjs/auth-dbauth-setup@npm:0.15.0"
+  dependencies:
+    "@babel/runtime-corejs3": "npm:7.27.6"
+    "@cedarjs/cli-helpers": "npm:0.15.0"
+    "@prisma/internals": "npm:5.20.0"
+    "@simplewebauthn/browser": "npm:7.4.0"
+    core-js: "npm:3.42.0"
+    prompts: "npm:2.4.2"
+    termi-link: "npm:1.1.0"
+  checksum: 10c0/3d43fde10b794bc1031c5934092fda8ead092b11c6935ca105781e8b5fb64170131a3592c11a0a30ad9614b062fb640bc7f98f1b7bb26ff5f31f6c113cfdbec9
+  languageName: node
+  linkType: hard
+
+"@cedarjs/auth-dbauth-web@npm:0.15.0":
+  version: 0.15.0
+  resolution: "@cedarjs/auth-dbauth-web@npm:0.15.0"
+  dependencies:
+    "@cedarjs/auth": "npm:0.15.0"
+    "@simplewebauthn/browser": "npm:7.4.0"
+  checksum: 10c0/7807348ed2d656a28aedf9a6b585587543b1a30840876602881408aee792ea6fcd31490ac9a2f676ceddf9b15e6bd5550c749f3e72adb61807b1b8e79989ba5d
+  languageName: node
+  linkType: hard
+
 "@cedarjs/auth@npm:0.15.0":
   version: 0.15.0
   resolution: "@cedarjs/auth@npm:0.15.0"
@@ -5967,6 +6004,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@simplewebauthn/browser@npm:7.4.0":
+  version: 7.4.0
+  resolution: "@simplewebauthn/browser@npm:7.4.0"
+  dependencies:
+    "@simplewebauthn/typescript-types": "npm:^7.4.0"
+  checksum: 10c0/cd69d51511e1bb75603b254b706194e8b7c3849e8f02fcb373cc8bb8c789df803a1bb900de7853c0cc63c0ad81fd56497ca63885638d566137afa387674099ad
+  languageName: node
+  linkType: hard
+
+"@simplewebauthn/typescript-types@npm:^7.4.0":
+  version: 7.4.0
+  resolution: "@simplewebauthn/typescript-types@npm:7.4.0"
+  checksum: 10c0/b7aefd742d2f483531ff96509475571339660addba1f140883d8e489601d6a3a5b1c6759aa5ba27a9da5b502709aee9f060a4d4e57010f32c94eb5c42ef562a3
+  languageName: node
+  linkType: hard
+
 "@sinclair/typebox@npm:^0.27.8":
   version: 0.27.8
   resolution: "@sinclair/typebox@npm:0.27.8"
@@ -7264,6 +7317,7 @@ __metadata:
   resolution: "api@workspace:api"
   dependencies:
     "@cedarjs/api": "npm:0.15.0"
+    "@cedarjs/auth-dbauth-api": "npm:0.15.0"
     "@cedarjs/graphql-server": "npm:0.15.0"
   languageName: unknown
   linkType: soft
@@ -7898,6 +7952,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"base64url@npm:3.0.1":
+  version: 3.0.1
+  resolution: "base64url@npm:3.0.1"
+  checksum: 10c0/5ca9d6064e9440a2a45749558dddd2549ca439a305793d4f14a900b7256b5f4438ef1b7a494e1addc66ced5d20f5c010716d353ed267e4b769e6c78074991241
+  languageName: node
+  linkType: hard
+
 "baseline-browser-mapping@npm:^2.8.19":
   version: 2.8.20
   resolution: "baseline-browser-mapping@npm:2.8.20"
@@ -8404,6 +8465,13 @@ __metadata:
   version: 2.1.0
   resolution: "chardet@npm:2.1.0"
   checksum: 10c0/d1b03e47371851ed72741a898281d58f8a9b577aeea6fdfa75a86832898b36c550b3ad057e66d50d774a9cebd9f56c66b6880e4fe75e387794538ba7565b0b6f
+  languageName: node
+  linkType: hard
+
+"charenc@npm:0.0.2":
+  version: 0.0.2
+  resolution: "charenc@npm:0.0.2"
+  checksum: 10c0/a45ec39363a16799d0f9365c8dd0c78e711415113c6f14787a22462ef451f5013efae8a28f1c058f81fc01f2a6a16955f7a5fd0cd56247ce94a45349c89877d8
   languageName: node
   linkType: hard
 
@@ -9017,6 +9085,13 @@ __metadata:
     shebang-command: "npm:^2.0.0"
     which: "npm:^2.0.1"
   checksum: 10c0/053ea8b2135caff68a9e81470e845613e374e7309a47731e81639de3eaeb90c3d01af0e0b44d2ab9d50b43467223b88567dfeb3262db942dc063b9976718ffc1
+  languageName: node
+  linkType: hard
+
+"crypt@npm:0.0.2":
+  version: 0.0.2
+  resolution: "crypt@npm:0.0.2"
+  checksum: 10c0/adbf263441dd801665d5425f044647533f39f4612544071b1471962209d235042fb703c27eea2795c7c53e1dfc242405173003f83cf4f4761a633d11f9653f18
   languageName: node
   linkType: hard
 
@@ -12193,6 +12268,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-buffer@npm:~1.1.6":
+  version: 1.1.6
+  resolution: "is-buffer@npm:1.1.6"
+  checksum: 10c0/ae18aa0b6e113d6c490ad1db5e8df9bdb57758382b313f5a22c9c61084875c6396d50bbf49315f5b1926d142d74dfb8d31b40d993a383e0a158b15fea7a82234
+  languageName: node
+  linkType: hard
+
 "is-callable@npm:^1.2.7":
   version: 1.2.7
   resolution: "is-callable@npm:1.2.7"
@@ -13990,6 +14072,17 @@ __metadata:
     inherits: "npm:^2.0.1"
     safe-buffer: "npm:^5.1.2"
   checksum: 10c0/b7bd75077f419c8e013fc4d4dada48be71882e37d69a44af65a2f2804b91e253441eb43a0614423a1c91bb830b8140b0dc906bc797245e2e275759584f4efcc5
+  languageName: node
+  linkType: hard
+
+"md5@npm:2.3.0":
+  version: 2.3.0
+  resolution: "md5@npm:2.3.0"
+  dependencies:
+    charenc: "npm:0.0.2"
+    crypt: "npm:0.0.2"
+    is-buffer: "npm:~1.1.6"
+  checksum: 10c0/14a21d597d92e5b738255fbe7fe379905b8cb97e0a49d44a20b58526a646ec5518c337b817ce0094ca94d3e81a3313879c4c7b510d250c282d53afbbdede9110
   languageName: node
   linkType: hard
 
@@ -16426,6 +16519,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+    "@cedarjs/auth-dbauth-setup": "npm:0.15.0"
     "@cedarjs/core": "npm:0.15.0"
     "@cedarjs/project-config": "npm:0.15.0"
     "@cedarjs/testing": "npm:0.15.0"
@@ -18558,6 +18652,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
+    "@cedarjs/auth-dbauth-web": "npm:0.15.0"
     "@cedarjs/forms": "npm:0.15.0"
     "@cedarjs/router": "npm:0.15.0"
     "@cedarjs/vite": "npm:0.15.0"
